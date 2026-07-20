@@ -1,0 +1,12 @@
+[
+  {
+    "username": "Admin",
+    "role": "Admin",
+    "status": "Enabled"
+  },
+  {
+    "username": "EssUser",
+    "role": "ESS",
+    "status": "Enabled"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "firstName": "Candidate",
+    "lastName": "One",
+    "email": "candidate1@example.com",
+    "contact": "1234567890",
+    "vacancy": "Software Engineer"
+  }
+]

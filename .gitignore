@@ -1,0 +1,19 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/reports/
+/videos/
+/traces/
+/screenshots/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# temporary files
+scratch/
+brain/
+*~
+.tmp/

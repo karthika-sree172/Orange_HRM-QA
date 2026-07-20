@@ -1,0 +1,39 @@
+{
+  "name": "orangehrm-playwright-automation",
+  "version": "1.0.0",
+  "description": "Enterprise-level Playwright automation framework for OrangeHRM Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --project=chromium --grep @smoke",
+    "test:sanity": "playwright test --project=chromium --grep @sanity",
+    "test:regression": "playwright test --project=chromium --grep @regression",
+    "test:e2e": "playwright test --project=chromium --grep @e2e",
+    "test:headed": "playwright test --headed",
+    "test:all-browsers": "playwright test --project=chromium --project=firefox --project=webkit",
+    "report": "playwright show-report reports/playwright-report",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,json,md}\""
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "orangehrm",
+    "typescript",
+    "pom"
+  ],
+  "author": "Principal QA Automation Architect",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.9",
+    "@typescript-eslint/eslint-plugin": "^8.64.0",
+    "@typescript-eslint/parser": "^8.64.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.2"
+  }
+}
